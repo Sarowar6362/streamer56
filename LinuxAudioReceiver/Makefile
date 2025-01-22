@@ -8,6 +8,7 @@ CXXFLAGS = -Wall -O2 -pthread
 LDFLAGS = -lportaudio -lopus -lpulse-simple -lpulse
 
 # Source and output files
+#hello there
 SRCS = streamplayer.cpp
 OBJS = $(SRCS:.cpp=.o)
 TARGET = client
